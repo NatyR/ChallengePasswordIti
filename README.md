@@ -59,8 +59,41 @@ Requisições para a API devem seguir os padrões:
 | `200` | Requisição executada retornando true ou false para a senha.|
 | `200` | Requisição executada retornando mensagem de erro e Status 0.|
 
+
+## Execução da aplicação
+Abrir o projeto na IDE (VSCode), acessar a pasta do projeto principal **ChallengePasswordItau** e compilar a solução via comando:
+
+```
+dotnet build
+```
+
+Após, executá-lo via comando:
+
+```
+dotnet run
+```
+**Em seguida acessar o endereço http://localhost:<port>/swagger/index.html, para que a API**
+
+Para executar os **testes**, acessar a pasta **ChallengePasswordItauTest**, compilar a solução (comando acima) e execute-lo via comando abaixo:
+```
+dotnet test
+```
+
 ## Testes
 Esta API pode ser testada via Postman ou via Swagger, conforme exemplos abaixo:
+
+[**Postman:**]
+
+![Postman](https://user-images.githubusercontent.com/28115304/112548966-cfc25980-8d9b-11eb-9fec-87eb4afb69df.JPG)
+
+[**Swagger:**]
+
+![Swagger](https://user-images.githubusercontent.com/28115304/112548986-da7cee80-8d9b-11eb-86e1-4791ae4f9841.jpg)
+
+
+
+
+
 
 
 
