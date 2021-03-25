@@ -72,7 +72,7 @@ Após, executá-lo via comando:
 ```
 dotnet run
 ```
-**Em seguida acessar o endereço http://localhost:<port>/swagger/index.html, para que a API**
+**Em seguida acessar o endereço http://localhost:**port**/swagger/index.html, para que a API seja aberta via documentação do Swagger **
 
 Para executar os **testes**, acessar a pasta **ChallengePasswordItauTest**, compilar a solução (comando acima) e execute-lo via comando abaixo:
 ```
