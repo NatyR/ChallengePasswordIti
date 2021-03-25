@@ -2,7 +2,7 @@
 
 ~**Desafio Proposto**: Desenvolver uma API com o intuito de receber uma senha e realizar a validação da mesma. 
 
-## Requisitos
+## Requisitos da API
  * **Quantidade de Caracteres** - Nove ou mais 
  * **Dígitos** - No mínimo 1
  * **Letra Maiúscula** - No mínimo 1
@@ -10,6 +10,11 @@
  * **Caracteres Especiais** - No mínimo 1 (apenas os seguintes: !@#$%^&*()-+)
  * **Espaçamento** - Não permitido
  * **Repetições** - Não permitido
+
+## Requisitos do Sistema
+* [**IDE**] - Visual Studio ou Visual Studio Code
+* [**SDK**] - .Net Core
+* [**Extensão**] - c# Extension (para IDE VsCode)
  
  ## Exemplo para Validação
 | Senha | Válido |
@@ -53,4 +58,10 @@ Requisições para a API devem seguir os padrões:
 |---|---|
 | `200` | Requisição executada retornando true ou false para a senha.|
 | `200` | Requisição executada retornando mensagem de erro e Status 0.|
+
+## Testes
+Esta API pode ser testada via Postman ou via Swagger, conforme exemplos abaixo:
+
+
+
 
