@@ -54,17 +54,17 @@ Requisições para a API devem seguir os padrões:
 
 
 ## Retornos
-| Válido | Descrição |
+| Status | Descrição |
 |---|---|
 | `200` | Requisição executada retornando true ou false para a senha.|
-| `200` | Requisição executada retornando mensagem de erro e Status 0.|
+| `404` | Requisição não executada, retornando mensagem de erro.|
 
 
 ## Execução da aplicação
 Abrir o projeto na IDE (VSCode), acessar a pasta do projeto principal **ChallengePasswordItau** e compilar a solução via comando:
 
 ```
-dotnet build
+dotnet restore
 ```
 
 Após, executá-lo via comando:
@@ -79,8 +79,8 @@ Para executar os **testes**, acessar a pasta **ChallengePasswordItauTest**, comp
 dotnet test
 ```
 
-## Testes
-Esta API pode ser testada via Postman ou via Swagger, conforme exemplos abaixo:
+## API
+Esta API pode ser acessada via Postman ou via Swagger (Navegador), conforme exemplos abaixo:
 
 [**Postman:**]
 
