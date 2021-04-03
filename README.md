@@ -31,9 +31,9 @@
 ## Recursos disponíveis da API:
 * [**Password/ValidatePassword**]
 
-## Métodos
+## Requisições
 Requisições para a API devem seguir os padrões:
-| Método | Descrição |
+| HTTP | Descrição |
 |---|---|
 | `POST` | Utilizado para receber a senha e retorna-la validada. |
 
