@@ -14,7 +14,7 @@
 ## Requisitos do Sistema
 * [**IDE**] - Visual Studio ou Visual Studio Code
 * [**SDK**] - .Net Core
-* [**Extensão**] - c# Extension (para IDE VsCode)
+* [**Extensão**] - C# Extension (para IDE VsCode)
  
  ## Exemplo para Validação
 | Senha | Válido |
