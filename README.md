@@ -57,7 +57,7 @@ Requisições para a API devem seguir os padrões:
 | Status | Descrição |
 |---|---|
 | `200` | Requisição executada retornando true ou false para a senha.|
-| `404` | Requisição não executada, retornando mensagem de erro.|
+| `400` | Requisição não executada, retornando mensagem de erro.|
 
 
 ## Execução da aplicação
